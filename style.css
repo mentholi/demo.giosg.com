@@ -1,0 +1,321 @@
+*{
+margin:0px;
+padding:0px;
+}
+img{border:0px;}
+html{
+width:100%;
+height:100%;
+}
+body{
+width:100%
+}
+#header{
+width:100%;
+background-color:#20221B;
+text-align:center;
+}
+.inside{
+width:980px;
+margin:0 auto;
+overflow:hidden
+}
+.logo{
+float:left;
+text-decoration: none;
+}
+.slogan{
+font-family:Arial, Helvetica, sans-serif;
+font-size:10px;
+text-transform:uppercase;
+color:#82837F;
+line-height:30px;
+border-left:1px solid #82837F;
+padding:0 0 0 21px;
+margin:40px 0 0 0;
+float:left
+}
+.rss{
+float:right;
+margin:29px 52px 0 0
+}
+#menu{
+background-image:url(images/menu_bg.gif);
+background-position:top left;
+background-repeat:repeat-x;
+width:100%;
+float:left;
+height:40px;
+}
+#menu ul{
+width:980px;
+margin:0 auto;
+padding:0 0 0 25px;
+}
+#menu li{
+list-style-type:none;
+display:inline;
+}
+.pic{
+margin:0 auto;
+/ margin:-4px auto;
+}
+#blocks{
+/*background-image:url(images/bg.gif);
+background-position:top left;
+background-repeat:repeat-x;*/
+min-height:176px;
+padding:27px 0 0 77px;
+background: rgb(204,204,204); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(204,204,204,1) 0%, rgba(247,247,247,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(204,204,204,1)), color-stop(100%,rgba(247,247,247,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(204,204,204,1) 0%,rgba(247,247,247,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(204,204,204,1) 0%,rgba(247,247,247,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(204,204,204,1) 0%,rgba(247,247,247,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(204,204,204,1) 0%,rgba(247,247,247,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#f7f7f7',GradientType=0 ); /* IE6-9 */
+
+}
+.block1{
+background-image:url(images/block1.jpg);
+background-size: cover;
+width:165px;
+height:118px;
+float:left;
+padding:30px 0 0 130px;
+}
+.block2{
+background-image:url(images/block2.jpg);
+background-size: cover;
+width:165px;
+height:118px;
+float:left;
+padding:30px 0 0 130px;
+}
+.block3{
+background-image:url(images/block3.jpg);
+background-size: cover;
+width:165px;
+height:118px;
+float:left;
+padding:30px 0 0 130px;
+}
+#blocks h3{
+font-family:Tahoma;
+font-size:14px;
+color:#505542;
+display:block;
+width:160px;
+}
+#blocks span{
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#698224;
+display:block;
+padding:11px 0 12px 0
+}
+#main{
+background-color:#F6F1F0;
+padding:47px 0 50px 0;
+border-bottom:1px solid #fff;
+}
+.column{
+padding:0 60px 0 37px;
+width:410px;
+font-family:Tahoma;
+font-size:11px;
+color:#64584C;
+line-height:17px;
+float:left;
+}
+.column h3{
+background-image:url(images/bullet.gif);
+background-position:left 2px;
+background-repeat:no-repeat;
+padding:3px 0 37px 28px;
+font-family:Arial;
+font-size:18px;
+color:#64584C;
+font-weight:normal;
+}
+.news_block h3{
+background-image:url(images/bullet.gif);
+background-position:left 2px;
+background-repeat:no-repeat;
+padding:0 0 37px 28px;
+font-family:Arial;
+font-size:18px;
+color:#64584C;
+font-weight:normal;
+}
+.text{
+font-size:14px;
+color:#677D2A;
+line-height:20px;
+padding:22px 0 8px 0
+}
+.right{
+text-align:right;
+padding:25px 0 0 0;
+}
+.right2{
+width:430px;
+float:left;
+text-align:right;
+padding:25px 0 0 0;
+}
+.news_block{
+width:425px;
+float:left;
+font-family:Tahoma;
+font-size:11px;
+color:#64584C;
+}
+.news_block span{
+display:block;
+float:left;
+color:#FF8400;
+font-weight:bold;
+text-align:right;
+width:77px;
+}
+.news_block li{
+list-style-type:none;
+}
+.news_block p{
+display:block;
+float:left;
+width:310px;
+padding:0 0 23px 8px;
+}
+#footer{
+background-color:#E4DEDA;
+width:100%;
+height:105px;
+font-family:Tahoma;
+font-size:11px;
+color:#64584C;
+text-transform:uppercase;
+text-align:right
+}
+#footer a{
+color:#64584C;
+text-decoration:none
+}
+#footer a:visited{text-decoration:none}
+#footer a:hover{text-decoration:underline}
+#footer p{
+line-height:90px;
+padding:0 48px 0 0
+}
+
+
+/* Let's import the lovely google font, please keep this line at the top of your stylesheet */
+
+@import url(http://fonts.googleapis.com/css?family=Capriola);
+
+
+
+/* Menu CSS */ 
+
+#cssmenu, #cssmenu ul, #cssmenu ul li, #cssmenu ul li a{
+	
+	padding: 0;
+	margin: 0;
+	line-height: 1;
+	font-family: 'Capriola', sans-serif;
+	
+}
+
+#cssmenu:before, #cssmenu:after, #cssmenu > ul:before, #cssmenu > ul:after {
+
+	content: '';
+	display: table;
+	
+}
+
+
+#cssmenu:after, #cssmenu > ul:after {
+
+	clear: both;
+	
+}
+
+#cssmenu {
+
+	zoom:1;
+	height: 69px;
+	background: url(images/bottom-bg.png) repeat-x center bottom;
+	border-radius: 2px;
+	
+}
+
+#cssmenu ul{
+
+	background: url(images/nav-bg.png) repeat-x 0px 4px;
+	height: 69px;
+	
+}
+
+#cssmenu ul li{
+
+	float: left;
+	list-style: none;
+	
+}
+
+#cssmenu ul li a{
+	
+	display: block;
+	height: 37px;
+	padding: 22px 30px 0;
+	margin: 4px 2px 0;
+	border-radius: 2px 2px 0 0;
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .75);
+	font-weight: 400;
+	opacity: .9;
+	
+}
+
+#cssmenu ul li:first-child a{
+	
+	margin: 4px 2px 0 0;
+	
+}
+
+#cssmenu ul li a:hover, #cssmenu ul li.active a{
+	
+	background: url(images/color.png) center bottom;
+	display: block;
+	height: 37px;
+	margin-top: 0px;
+	padding-top: 26px;
+	color: #4e6d04;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .55);
+	opacity: 1;
+	
+}
+
+
+#custom_chat_online {
+width:150px;
+height:100px;
+background-color:blue;
+display:none;
+}
+#custom_chat_offline {
+width:150px;
+height:100px;
+background-color:red;
+display:none;
+}
+
+
+.wide-community {
+    left:25% !important;
+    right:25% !important;
+    width: auto !important;
+}
